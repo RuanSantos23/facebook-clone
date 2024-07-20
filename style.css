@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --color-white: white;
+    --color-gray: rgb(83, 83, 83);
+    --color-darkgray: rgb(36, 36, 36);
+    --color-darkgray2:rgb(15, 15, 15);
+    --color-yellow2: rgb(224, 181, 40);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-darkgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.content-info {
+    width: 600px;
+    font-size: 20px;
+    margin-bottom: 28%;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(56, 56, 56);
+}
+
+h1 {
+    color: rgb(255, 203, 32);
+    text-shadow: 1px 1px 5px rgb(56, 56, 56);
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+}
+
+.content-login {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.content-login-box {
+    background-color: var(--color-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(56, 56, 56);
+    transition: .2s;
+}
+
+.inputs {
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid var(--color-gray);
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    color: black;
+    
+}
+
+.inputs:focus {
+    border-color: black;
+    box-shadow: 1px 1px 10px rgb(206, 206, 206);
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: .2s;
+}
+
+a {
+    color: rgb(255, 240, 156);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-enter {
+    background-color: rgb(255, 203, 32);
+    text-shadow: 1px 1px 4px rgb(180, 149, 10);
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+.btn-create {
+    background-color: rgb(34, 33, 32);
+    width: auto;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+}
+
+.btn-enter:hover {
+    background-color: var(--color-yellow2);
+    
+}
+
+.btn-create:hover {
+    background-color: var(--color-darkgray2);
+}
+
+hr {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(56, 56, 56) ;
+}
